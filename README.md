@@ -56,4 +56,4 @@ Place your MIMIC-III CSV files in this directory:
 Due to data sharing restrictions and file size limitations, these files are not included in the repository. To obtain the MIMIC-III dataset, request access through PhysioNet: https://physionet.org/content/mimiciii/1.4/
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the **LICENSE** file for details.
