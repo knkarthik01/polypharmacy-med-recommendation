@@ -13,4 +13,37 @@ This project addresses the challenge of medication recommendation for polypharma
 - Diagnosis importance analysis
 
 ## Data
-This project uses the MIMIC-III clinical database 
+This project uses the MIMIC-III clinical database, focusing on:
+- Prescription records
+- Diagnosis codes
+- Patient demographics
+- Admission information
+
+Note: You'll need access to MIMIC-III to run this code. Follow the official instructions at [PhysioNet](https://physionet.org/content/mimiciii/1.4/) to request access.
+
+## Technical Implementation
+- **Graph Construction**: Building a heterogeneous graph with patients, medications, and diagnoses as nodes
+- **Graph Neural Network**: Implementing a GNN to learn representations for all entities
+- **Link Prediction**: Formulating medication recommendation as a link prediction task
+- **Adverse Event Detection**: Using medication co-occurrence patterns to identify potential adverse interactions
+
+## Requirements
+See `requirements.txt` for the full list of dependencies.
+
+## Getting Started
+1. Clone this repository
+2. Install the required packages: `pip install -r requirements.txt`
+3. Place your MIMIC-III CSV files in the `data/` directory
+4. Run the Jupyter notebook: `jupyter notebook Medication_Recommendation_System_for_Polypharmacy_Patients.ipynb`
+
+## Results
+The model achieves a test AUC of approximately 0.8, demonstrating good performance in recommending appropriate medications for polypharmacy patients.
+
+## Future Work
+- Incorporate time-series data to model treatment progression
+- Include additional patient features (lab results, vitals)
+- Integrate external knowledge bases for more accurate adverse event prediction
+- Develop an interpretable interface for healthcare providers
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
