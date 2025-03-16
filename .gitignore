@@ -1,0 +1,29 @@
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.txt
+*.dat
+data/
+
+# Model files
+*.pt
+*.pth
+*.h5
+
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+
+# Environment
+venv/
+env/
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
