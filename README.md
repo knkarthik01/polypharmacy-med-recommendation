@@ -45,5 +45,15 @@ The model achieves a test AUC of approximately 0.8, demonstrating good performan
 - Integrate external knowledge bases for more accurate adverse event prediction
 - Develop an interpretable interface for healthcare providers
 
+# Data Directory
+
+Place your MIMIC-III CSV files in this directory:
+- PRESCRIPTIONS.csv
+- DIAGNOSES_ICD.csv
+- PATIENTS.csv
+- ADMISSIONS.csv
+
+Due to data sharing restrictions and file size limitations, these files are not included in the repository. To obtain the MIMIC-III dataset, request access through PhysioNet: https://physionet.org/content/mimiciii/1.4/
+
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
